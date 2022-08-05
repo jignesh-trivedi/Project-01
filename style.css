@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+nav{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    /* border: 2px  solid black; */
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 100px;
+}
+
+nav div ul {
+    width: 500px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   list-style-type: none;
+   font-size: 20px;
+   font-family: "Orbitron", sans-serif;
+   font-weight: 600;
+}
+
+.list-item:first-child::after{
+    content: "";
+    display: block;
+    width: 42px;
+    border-bottom: 3px solid black;
+    margin-left: 12px;
+}
+
+.search-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    right: 300px;
+    top:  25px;
+    align-items: center;
+}
+
+.nav-button{
+    position: relative;
+    right: 40px;
+    bottom: 25px;
+    padding: 8px 45px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #fff;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+.hero-container-right{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    padding-top: 50px;
+    margin-left: 630px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 990px;
+}
+
+.hero-heading{
+    font-family: "Orbitron", sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.hero-description{
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+div button{
+    margin-top: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+.button-email{
+    padding: 3px 25px;
+    font-size: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.button-join{
+    padding: 3px 10px;
+    font-size: 15px;
+    border-radius: 8px;
+    background-color: #1d1d1d;
+    color: #fff;
+}
+
+.contact-heading{
+    margin-top: 30px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+.icons{
+    margin-top: 10px;
+}
+
+.square{
+    position: relative;
+    top: 180px;
+    left: 140px;
+}
+
+[alt=person-hero-iamge]{
+    position: relative;
+    bottom: 390px;
+    left: 70px;
+    height:  500px;
+}
+
+.globe{
+    position: relative;
+    left: 250px;
+    bottom: 320px;
+}
+
+.star{
+    position: relative;
+    left: 700px;
+    bottom: 270px;
+}
